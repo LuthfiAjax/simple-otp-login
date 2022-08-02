@@ -135,7 +135,7 @@ class Auth extends CI_Controller
 
         $this->email->initialize($config);
 
-        $this->email->from('ajax@tegalsec.org', 'Jaxid Website Activition');
+        $this->email->from('info@jaxid.site', 'Jaxid Website Activition');
         $this->email->to($this->input->post('email'));
 
         if ($type == 'verify') {
